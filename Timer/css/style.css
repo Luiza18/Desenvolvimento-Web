@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --container-color: #D9D9D9;
+  --luiza-font: 'Oswald';
+  --background-color : rgb(10,25,88);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  font-family: var(--luiza-font);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/Image\ background.svg');
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 640px;
+  margin: 50px auto;
+  background-color:var(--container-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px black
+}
+
+.lista_botoes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}
+
+.botao{
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.botao:hover{
+    background-color: var(--background-color);
+    color: white;
+}
+
+
+.relogio {
+  font-size: 3em;
+  text-align: center;
+
+}
+
+.stop {
+  color: red;
+}
